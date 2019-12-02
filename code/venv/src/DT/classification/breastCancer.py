@@ -44,7 +44,7 @@ tree = DecisionTreeClassifier(random_state=42) #30
 #tree=DecisionTreeClassifier(max_depth=4,random_state=42)
 print('{}\n'.format(tree.fit(x_train,y_train)))
 
-y_pred = tree.predict(x_test)  #predict: dự đoán
+#y_pred = tree.predict(x_test)  #predict: dự đoán
 print('Độ chính xác của tập huấn luyện: {:.4f}'.format(tree.score(x_train,y_train)))
 print('Độ chính xác của tập kiểm tra: {:.4f}'.format(tree.score(x_test,y_test)))
 
